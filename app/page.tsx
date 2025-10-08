@@ -11,7 +11,12 @@ import Footer from '@/components/10.Footer';
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <>
+      {/* スキップリンク */}
+      <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 bg-black text-white px-4 py-2 rounded">
+        本文へスキップ
+      </a>
+      <main id="main" className="min-h-screen" tabIndex={-1}>
       <Hero />
       <Purpose />
       <Overview />
@@ -22,6 +27,7 @@ export default function Home() {
       <Advanced />
       <FinalCTA />
       <Footer />
-    </main>
+      </main>
+    </>
   );
 }

@@ -22,6 +22,7 @@ export default function Purpose() {
               width={1200}
               height={675}
               className="w-full h-auto"
+              sizes="(max-width: 768px) 100vw, 800px"
               priority
             />
           </div>

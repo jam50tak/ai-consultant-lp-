@@ -25,6 +25,7 @@ export default function Overview() {
               width={1200}
               height={675}
               className="w-full h-auto"
+              sizes="(max-width: 768px) 100vw, 1000px"
             />
           </div>
 
