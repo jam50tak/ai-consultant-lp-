@@ -35,7 +35,7 @@ export default function Curriculum() {
         <div className="max-w-5xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <h2 className="text-3xl md:text-5xl font-bold tracking-tight">カリキュラム</h2>
-            <p className="text-lg text-muted-foreground">充実の5部構成で、実践的なスキルを習得（内容は変更する場合があります）</p>
+            <p className="text-lg text-muted-foreground">充実の3部構成で、実践的なスキルを習得（内容は変更する場合があります）</p>
           </div>
 
           {/* AIを使いこなすための方程式 */}

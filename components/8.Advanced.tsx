@@ -24,7 +24,7 @@ export default function Advanced() {
                   <span className="text-sm text-muted-foreground font-semibold">Coming Soon</span>
                 </div>
                 <CardTitle className="text-3xl md:text-4xl font-black mt-4">
-                  コンテキストエンジニアリング<br />バイブコーディング入門
+                  より高度なAI活用術<br />バイブコーディング入門
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
