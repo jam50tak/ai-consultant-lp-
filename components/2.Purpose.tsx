@@ -47,16 +47,16 @@ export default function Purpose() {
               <Card className="border-t-8 border-t-blue-500 hover:shadow-2xl transition-shadow bg-gradient-to-br from-blue-50 to-white">
                 <CardContent className="pt-6 space-y-4">
                   <div className="flex items-center gap-2">
-                    <h4 className="text-xl font-black text-gray-900">AIを使いこなすコンサルタント</h4>
+                    <h4 className="text-xl md:text-2xl font-black text-gray-900">AIを使いこなすコンサルタント</h4>
                   </div>
-                  <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-start gap-2">
-                      <span className="text-2xl">🚀</span>
-                      <span className="font-semibold">自分の業務が劇的に改善（DX化）できる</span>
+                  <ul className="space-y-4 text-gray-700">
+                    <li className="flex items-start gap-3">
+                      <span className="text-3xl">🚀</span>
+                      <span className="text-base md:text-lg font-semibold leading-relaxed">自分の業務が劇的に改善（DX化）できる</span>
                     </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-2xl">💡</span>
-                      <span className="font-semibold">用途・業務にあったAIを自在に使いこなす</span>
+                    <li className="flex items-start gap-3">
+                      <span className="text-3xl">💡</span>
+                      <span className="text-base md:text-lg font-semibold leading-relaxed">用途・業務にあったAIを自在に使いこなす</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -66,16 +66,16 @@ export default function Purpose() {
               <Card className="border-t-8 border-t-green-500 hover:shadow-2xl transition-shadow bg-gradient-to-br from-green-50 to-white">
                 <CardContent className="pt-6 space-y-4">
                   <div className="flex items-center gap-2">
-                    <h4 className="text-xl font-black text-gray-900">AI活用を支援できるコンサルタント</h4>
+                    <h4 className="text-xl md:text-2xl font-black text-gray-900">AI活用を支援できるコンサルタント</h4>
                   </div>
-                  <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-start gap-2">
-                      <span className="text-2xl">🎯</span>
-                      <span className="font-semibold">クライアントのAI導入を支援できる知見を獲得できる</span>
+                  <ul className="space-y-4 text-gray-700">
+                    <li className="flex items-start gap-3">
+                      <span className="text-3xl">🎯</span>
+                      <span className="text-base md:text-lg font-semibold leading-relaxed">クライアントのAI導入を支援できる知見を獲得できる</span>
                     </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-2xl">⚡</span>
-                      <span className="font-semibold">「AI活用コンサル」という新たな武器を手に入れる</span>
+                    <li className="flex items-start gap-3">
+                      <span className="text-3xl">⚡</span>
+                      <span className="text-base md:text-lg font-semibold leading-relaxed">「AI活用コンサル」という新たな武器を手に入れる</span>
                     </li>
                   </ul>
                 </CardContent>

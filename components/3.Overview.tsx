@@ -30,24 +30,26 @@ export default function Overview() {
 
           <div className="grid md:grid-cols-2 gap-6">
             {items.map((item, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-3 text-muted-foreground text-sm font-medium">
-                    <span className="text-2xl">{item.icon}</span>
-                    {item.label}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  {item.originalPrice ? (
-                    <div className="space-y-1">
-                      <p className="text-sm text-muted-foreground line-through">
-                        {item.originalPrice}
-                      </p>
-                      <p className="text-2xl font-bold text-primary">{item.value}</p>
+              <Card key={index} className="hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border-t-4 border-t-blue-500 bg-gradient-to-br from-blue-50 to-white">
+                <CardContent className="pt-6">
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0 w-14 h-14 rounded-full bg-blue-500/10 flex items-center justify-center">
+                      <span className="text-3xl">{item.icon}</span>
                     </div>
-                  ) : (
-                    <p className="text-2xl font-bold">{item.value}</p>
-                  )}
+                    <div className="space-y-2 flex-1">
+                      <h3 className="font-bold text-lg text-gray-600">{item.label}</h3>
+                      {item.originalPrice ? (
+                        <div className="space-y-1">
+                          <p className="text-sm text-gray-500 line-through">
+                            {item.originalPrice}
+                          </p>
+                          <p className="text-xl md:text-2xl font-black text-blue-600">{item.value}</p>
+                        </div>
+                      ) : (
+                        <p className="text-xl md:text-2xl font-black text-gray-900">{item.value}</p>
+                      )}
+                    </div>
+                  </div>
                 </CardContent>
               </Card>
             ))}
