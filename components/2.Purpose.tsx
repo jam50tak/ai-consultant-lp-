@@ -52,7 +52,7 @@ export default function Purpose() {
                   <ul className="space-y-4 text-gray-700">
                     <li className="flex items-start gap-3">
                       <span className="text-3xl">🚀</span>
-                      <span className="text-base md:text-lg font-semibold leading-relaxed">自分の業務が劇的に改善（DX化）できる</span>
+                      <span className="text-base md:text-lg font-semibold leading-relaxed">自らの業務を劇的に改善（DX化）できる</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-3xl">💡</span>
@@ -71,7 +71,7 @@ export default function Purpose() {
                   <ul className="space-y-4 text-gray-700">
                     <li className="flex items-start gap-3">
                       <span className="text-3xl">🎯</span>
-                      <span className="text-base md:text-lg font-semibold leading-relaxed">クライアントのAI導入を支援できる知見を獲得できる</span>
+                      <span className="text-base md:text-lg font-semibold leading-relaxed">AI導入を提案・支援できる知見がある</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <span className="text-3xl">⚡</span>
