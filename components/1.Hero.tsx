@@ -21,7 +21,7 @@ export default function Hero() {
 
           {/* メインタイトル */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tight leading-tight">
-            <span className="block text-red-600 drop-shadow-lg">AIコンサルタント養成講座</span>
+            <span className="block text-red-600 drop-shadow-lg">AIコンサルタント<br />養成講座</span>
             <span className="block text-gray-900">（初級編）</span>
           </h1>
 

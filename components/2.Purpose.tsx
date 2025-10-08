@@ -10,7 +10,7 @@ export default function Purpose() {
           {/* セクションタイトル */}
           <div className="text-center space-y-4">
             <h2 className="text-3xl md:text-5xl font-black tracking-tight text-gray-900">
-              AIを味方にする次世代コンサルタントへ
+              AIを味方にする<br />次世代コンサルタントへ
             </h2>
           </div>
 
@@ -39,7 +39,7 @@ export default function Purpose() {
           {/* 2つの目標 */}
           <div className="space-y-8">
             <h3 className="text-2xl md:text-3xl font-black text-center text-gray-900">
-            あなたの目指す「AIコンサルタント」とは？
+            「AIコンサルタント」とは？
             </h3>
 
             <div className="grid md:grid-cols-2 gap-6">
