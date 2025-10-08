@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 
 export default function FinalCTA() {
   return (
@@ -14,6 +15,17 @@ export default function FinalCTA() {
             AI時代を生き抜く力を、<br />
             <span className="text-yellow-300">今すぐ</span>手に入れる
           </h2>
+
+          {/* Final CTA Image */}
+          <div className="max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
+            <Image
+              src="/finalcta-image.png"
+              alt="AI時代を生き抜く"
+              width={1200}
+              height={675}
+              className="w-full h-auto"
+            />
+          </div>
 
           <p className="text-xl md:text-2xl text-white/90 font-bold">
             このページを閉じる前に、一歩踏み出しませんか？
