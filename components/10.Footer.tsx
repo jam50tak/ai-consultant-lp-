@@ -21,7 +21,9 @@ export default function Footer() {
               お問い合わせ
             </a>
             <a
-              href="#privacy"
+              href="https://takayuki.shinmoto.info/privacypolicy/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               プライバシーポリシー
