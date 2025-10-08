@@ -13,7 +13,9 @@ export default function Footer() {
               運営者情報
             </a>
             <a
-              href="#contact"
+              href="https://takayuki.shinmoto.info/contact/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               お問い合わせ
