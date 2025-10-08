@@ -52,11 +52,11 @@ export default function Purpose() {
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-2">
                       <span className="text-2xl">🚀</span>
-                      <span className="font-semibold">業務効率を劇的に改善（従来2時間の作業が30分に）</span>
+                      <span className="font-semibold">自分の業務が劇的に改善（DX化）できる</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-2xl">💡</span>
-                      <span className="font-semibold">AIを使った戦略立案・資料作成・分析が自在に</span>
+                      <span className="font-semibold">用途・業務にあったAIを自在に使いこなす</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -71,7 +71,7 @@ export default function Purpose() {
                   <ul className="space-y-3 text-gray-700">
                     <li className="flex items-start gap-2">
                       <span className="text-2xl">🎯</span>
-                      <span className="font-semibold">クライアントのAI導入を支援できる知見を獲得</span>
+                      <span className="font-semibold">クライアントのAI導入を支援できる知見を獲得できる</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-2xl">⚡</span>
