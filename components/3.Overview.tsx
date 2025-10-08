@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import Image from 'next/image';
 
 export default function Overview() {
   const items = [
@@ -14,6 +15,17 @@ export default function Overview() {
         <div className="max-w-5xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <h2 className="text-3xl md:text-5xl font-bold tracking-tight">講座概要</h2>
+          </div>
+
+          {/* Overview Image */}
+          <div className="max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
+            <Image
+              src="/overview-image.png"
+              alt="オンライン講座"
+              width={1200}
+              height={675}
+              className="w-full h-auto"
+            />
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
