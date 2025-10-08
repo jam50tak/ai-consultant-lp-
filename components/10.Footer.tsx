@@ -8,7 +8,7 @@ export default function Footer() {
               href="https://takayuki.shinmoto.info/about-%E7%9C%9F%E6%9C%AC%E5%B4%87%E4%B9%8B/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors"
+              className="text-black hover:text-gray-600 transition-colors"
             >
               運営者情報
             </a>
@@ -16,7 +16,7 @@ export default function Footer() {
               href="https://takayuki.shinmoto.info/contact/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors"
+              className="text-black hover:text-gray-600 transition-colors"
             >
               お問い合わせ
             </a>
@@ -24,12 +24,12 @@ export default function Footer() {
               href="https://takayuki.shinmoto.info/privacypolicy/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-foreground transition-colors"
+              className="text-black hover:text-gray-600 transition-colors"
             >
               プライバシーポリシー
             </a>
           </div>
-          <p className="text-sm text-muted-foreground text-center">
+          <p className="text-sm text-black text-center">
             &copy; 2025 AIコンサルタント養成講座. All rights reserved.
           </p>
         </div>
