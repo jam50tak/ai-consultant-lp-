@@ -5,7 +5,9 @@ export default function Footer() {
         <div className="flex flex-col items-center space-y-6">
           <div className="flex flex-wrap justify-center gap-6 text-sm">
             <a
-              href="#about"
+              href="https://takayuki.shinmoto.info/about-%E7%9C%9F%E6%9C%AC%E5%B4%87%E4%B9%8B/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               運営者情報
