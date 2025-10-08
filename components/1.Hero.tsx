@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import Image from 'next/image';
 
 export default function Hero() {
   return (
@@ -25,23 +24,6 @@ export default function Hero() {
             <span className="block text-red-600 drop-shadow-lg">AIコンサルタント養成講座</span>
             <span className="block text-gray-900">（初級編）</span>
           </h1>
-
-          {/* サブタイトル */}
-          <p className="text-2xl md:text-3xl font-bold text-gray-800">
-            AIを味方にする次世代コンサルタントへ
-          </p>
-
-          {/* Hero Image */}
-          <div className="max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
-            <Image
-              src="/hero-image.png"
-              alt="AIコンサルタント"
-              width={1200}
-              height={675}
-              className="w-full h-auto"
-              priority
-            />
-          </div>
 
           {/* Pricing Card */}
           <div className="max-w-2xl mx-auto">

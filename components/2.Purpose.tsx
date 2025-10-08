@@ -1,5 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import Image from 'next/image';
 
 export default function Purpose() {
   return (
@@ -13,13 +14,25 @@ export default function Purpose() {
             </h2>
           </div>
 
+          {/* Hero Image */}
+          <div className="max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
+            <Image
+              src="/hero-image.png"
+              alt="AIコンサルタント"
+              width={1200}
+              height={675}
+              className="w-full h-auto"
+              priority
+            />
+          </div>
+
           {/* 本文 */}
           <div className="prose prose-lg max-w-3xl mx-auto space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
               ChatGPTの登場から3年。もうAIは「様子見」のフェーズではありません。<br />
             今、この瞬間も、他のコンサルタントはAIを使いこなし、あなたの2倍の速度で提案書を作り、3倍の質のコンサルティングを提供しています。
             このままでは、クライアントから「あの先生よりAIの方がいいよね」と思われる日が来るかもしれません。
-            あなたのコンサルティング手法をAIと組み合わせて、より良いコンサルティングを提供できるようになれば、あなたのコンサルティング価値がさらに高まります。
+            あなたのコンサルティング手法をAIと組み合わせて、あなたのコンサルティング価値がさらに高めていきましょう。
             </p>
           </div>
 
