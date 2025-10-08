@@ -45,9 +45,9 @@ export default function Results() {
                         />
                       </svg>
                     </div>
-                    <div className="space-y-1">
-                      <h3 className="font-bold text-lg leading-tight">{result.title}</h3>
-                      <p className="text-sm text-muted-foreground">{result.description}</p>
+                    <div className="space-y-2">
+                      <h3 className="font-bold text-xl md:text-2xl leading-tight">{result.title}</h3>
+                      <p className="text-base md:text-lg text-gray-700 leading-relaxed">{result.description}</p>
                     </div>
                   </div>
                 </CardContent>
